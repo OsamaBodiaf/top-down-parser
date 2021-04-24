@@ -1,0 +1,15 @@
+############################## Notice ##############################
+# Put each rule on a single line.
+# Use "→" or "->" to separate rule sides.
+# Use "|" to separate productions.
+# Use "epsilon" to indicate empty string.
+# First symbol will be start symbol.
+# Comments like this are ignored.
+####################################################################
+
+############################## Example #############################
+Expression → Term AS
+AS → + Term AS | - Term AS | epsilon
+Term → Factor MS
+MS → * Factor MS | / Factor MS | epsilon
+Factor → Integer | Identifier | ( Expression )
