@@ -1,4 +1,3 @@
-# top-down-parser
-Top-Down Parser with included Lexer
+Top-down parser supporting LL1 grammar, with included lexical analyser.
 
-This was a university project, created from scratch by @OsamaBodiaf
+This was a university project, developed from scratch by @OsamaBodiaf
